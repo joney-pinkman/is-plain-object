@@ -13,6 +13,7 @@ function isObjectObject(o) {
 }
 
 export default function isPlainObject(o) {
+  console.log('foo bar')
   var ctor,prot;
 
   if (isObjectObject(o) === false) return false;
